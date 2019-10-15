@@ -1,27 +1,27 @@
 const contentData = [
   {
-    title: "Configure other identity providers",
+    title: "他のIdentity Providerを設定してみましょう",
     link: "https://auth0.com/docs/connections",
     description:
-      "Auth0 supports social providers as Facebook, Twitter, Instagram and 100+, Enterprise providers as Microsoft Office 365, Google Apps, Azure, and more. You can also use any OAuth2 Authorization Server."
+      "Auth0はFacebook, Twitter, Google, Lineなど100以上のソーシャルサービスプロバイダー, Google Apps, Microsoft Activev Directoryなどの企業向けエンタープライズディレクトリサービス、Open ID Connect, SAML等業界標準のIdentity Providerと接続することが可能です。"
   },
   {
-    title: "Enable Multifactor Authentication",
+    title: "多要素認証を設定してみましょう",
     link: "https://auth0.com/docs/multifactor-authentication",
     description:
-      "Add an extra layer of security by enabling Multi-factor Authentication, requiring your users to provide more than one piece of identifying information. Push notifications, authenticator apps, SMS, and DUO Security are supported."
+      "多要素認証を有効にして認証機能を強化しましょう。Auth0は複雑な多要素認証をフリップスイッチをオンにするだけで簡単に実装できます。要素はSMS/Authenticator App/DUO/Email等複数取り揃えています。"
   },
   {
-    title: "Anomaly Detection",
+    title: "異常検知を設定してみましょう",
     link: "https://auth0.com/docs/anomaly-detection",
     description:
-      "Auth0 can detect anomalies and stop malicious attempts to access your application. Anomaly detection can alert you and your users of suspicious activity, as well as block further login attempts."
+      "Auth0はApplicationへの不正なログインを検知して遮断します。疑わしいアクセスを検知したらその内容を管理者に通知しログインできなくすることが可能です。"
   },
   {
-    title: "Learn About Rules",
+    title: "カスタムルールを設定してみましょう",
     link: "https://auth0.com/docs/rules",
     description:
-      "Rules are JavaScript functions that execute when a user authenticates to your application. They run once the authentication process is complete, and you can use them to customize and extend Auth0's capabilities."
+      "RulesはJavaScriptで実装するロジックで認証・認可のプロセス中に実行することが可能です。アクセス制御やユーザプロファイルの取得等、利用シーンの多いロジックはテンプレート化されているので一からロジックを実装する必要はありません。"
   }
 ];
 
